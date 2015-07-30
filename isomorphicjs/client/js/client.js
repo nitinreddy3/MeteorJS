@@ -7,6 +7,8 @@ Template.main.helpers({
 
 Template.main.events({
   'submit #enterBookDetails': function(event, template){
+    event.preventDefault();
+
     var bookTitle = event.target.bookTitle.value;
     var authorName = event.target.authorName.value;
     var genre = event.target.genre.value;
@@ -18,5 +20,6 @@ Template.main.events({
         console.log("Data added to Collection successfully");
       }
     });
+    template.find('#enterBookDetails').reset();
   }
 });
