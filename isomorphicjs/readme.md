@@ -2,19 +2,19 @@
 
 Isomorphic JS is the way writing the web applications which are purely based on javascript at client side and server side.
 
-Examples of ISOMORPHIC JS Framework
+###Examples of ISOMORPHIC JS Framework
 
 1. React JS + Flux
 2. MeteorJS
 
-MeteorJS
+##MeteorJS
 This repo is basically dealing with MeteorJS framework as purely Isomorphic JS Framework.
 
-Prerequisites for the application
+##Prerequisites for the application
 
-For windows user Meteor JS Download the meteor distribution (https://www.meteor.com/install)
+##For windows user Meteor JS Download the meteor distribution (https://www.meteor.com/install)
 
-For linux/mac curl https://install.meteor.com/ | sh Setup
+##For linux/mac curl https://install.meteor.com/ | sh Setup
 
 1. Clone from the current repository Running the app
 
@@ -25,15 +25,15 @@ For linux/mac curl https://install.meteor.com/ | sh Setup
    $ meteor --port 4000 Open the app in your browser (localhost:3000)
 
 
-Polymer web components can be incorporated with MeteorJS 
+##Polymer web components can be incorporated with MeteorJS 
 
-Installing Bower:
+###Installing Bower:
 
 From the root of the MeteorJS project folder run the command
 $ bower init
 This generated the bower.json file. You can ignore the questions by pressing Enter.
 
-Install Polymer
+###Install Polymer
 $ bower install --save Polymer/polymer#^1.0.0
 This adds the bower_components/ folder in the root of your project and fills it with polymer and its dependencies.
 Tip: --save adds the item as a dependency in your app’s bower.json: 
@@ -52,7 +52,7 @@ Installing web components polyfills:
 $ bower install --save webcomponentsjs
 
 
-Note: 
+#Note: 
 Move the bower_components/ folder to public/ folder in your MeteorJS project other wise you will get the errors while running the Meteor Project.
 
 bower_components/polymer/src/lib/bind/demo/src/annotations-bind-demo.html:1: bad formatting
