@@ -1,11 +1,11 @@
 
-Template.main.helpers({
+Template.infoCollection.helpers({
   addBookDetail: function(){
     return Books.find({});
   }
 });
 
-Template.main.events({
+Template.infoForm.events({
   'submit #enterBookDetails': function(event, template){
     event.preventDefault();
 

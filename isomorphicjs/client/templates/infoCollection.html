@@ -1,0 +1,20 @@
+<template name="infoCollection">
+  <table class="table table-striped table-condensed table-bordered">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each addBookDetail}}
+        <tr>
+          <td>{{bookTitle}}</td>
+          <td>{{authorName}}</td>
+          <td>{{genre}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</template>
