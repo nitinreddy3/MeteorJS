@@ -10,3 +10,4 @@ bootstrap
 jquery
 coffeescript
 hedcet:polymer-ui
+babel-compiler
